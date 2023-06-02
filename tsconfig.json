@@ -6,15 +6,16 @@
 
     /* Completeness */
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
-      "@root": ["./"],
-      "@common": ["./src/common"],
-      "@stores": ["./src/store"],
-      "@network": ["./src/network"],
-      "@screens": ["./src/screen"],
-      "@components": ["./src/components"],
-      "@images": ["./assets/images"],
+      "@root/*": ["./"],
+      "@common/*": ["src/common/*"],
+      "@stores/*": ["src/store/*"],
+      "@network/*": ["src/network/*"],
+      "@screens/*": ["src/screen/*"],
+      "@components/*": ["src/components/*"],
+      "@images/*": ["assets/images/*"],
     }
   }
 }
